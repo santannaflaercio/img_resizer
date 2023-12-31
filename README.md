@@ -1,1 +1,1 @@
-# image_resizer
+# img_resizer
