@@ -21,11 +21,13 @@ Finally, run the script:
 python img_resizer.py
 ```
 
+## License
+
+Feel free to change the code and use it as you wish.
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Feel free to change the code and use it as you wish.
 
 ## Authors
 
