@@ -20,4 +20,4 @@ jobs:
         python -m pip install --upgrade pip
         pip install -r requirements.txt
     - name: Run test
-      run: python test/test_img_resizer.py
+      run: python /home/runner/work/img_resizer/test/test_img_resizer.py
