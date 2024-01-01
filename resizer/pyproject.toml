@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[project]
+name = "imgresizer"
+version = "1.0.0"
+authors = [
+    { name = "Laércio de Sant' Anna Filho", email = "lasantannaf@outlook.com" }
+]
+dependencies = [
+    "Pillow>=10.1.0"
+]
+
+[project.scripts]
+imgresizer = "resizer.imgresizer:main"
