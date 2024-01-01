@@ -3,7 +3,7 @@ import unittest
 
 from PIL import Image
 
-from app import img_resizer
+from imgresizer import main
 
 
 class TestImageResize(unittest.TestCase):
@@ -14,7 +14,7 @@ class TestImageResize(unittest.TestCase):
 
     def test_image_resizer(self):
         # execute the img_resizer.py script
-        img_resizer.main()
+        main()
 
         # verify if the image was created
         self.assertTrue(os.path.exists(self.resized_image_path))

@@ -35,7 +35,7 @@ def create_new_image(resized_image, new_width, new_height):
 
 
 def main():
-    image_path = "img.png"
+    image_path = "tests/img.png"
     image = open_image(image_path)
 
     if image is not None:
